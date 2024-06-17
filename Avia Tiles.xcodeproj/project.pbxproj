@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE32BE7C2C1D79A300FC1D98 /* Avia_TilesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BE7B2C1D79A300FC1D98 /* Avia_TilesApp.swift */; };
+		EE32BE7E2C1D79A300FC1D98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BE7D2C1D79A300FC1D98 /* ContentView.swift */; };
+		EE32BE802C1D79A500FC1D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE32BE7F2C1D79A500FC1D98 /* Assets.xcassets */; };
+		EE32BE832C1D79A500FC1D98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE32BE822C1D79A500FC1D98 /* Preview Assets.xcassets */; };
+		EE32BE8E2C1D7A5D00FC1D98 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BE8D2C1D7A5D00FC1D98 /* HomeScreenView.swift */; };
+		EE32BE902C1D7B9200FC1D98 /* Souses.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE32BE8F2C1D7B9200FC1D98 /* Souses.otf */; };
+		EE32BE962C1DE71D00FC1D98 /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BE952C1DE71D00FC1D98 /* SettingsScreenView.swift */; };
+		EE32BE982C1DE72600FC1D98 /* RulesScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BE972C1DE72600FC1D98 /* RulesScreenView.swift */; };
+		EE32BE9B2C1DFE2E00FC1D98 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BE9A2C1DFE2E00FC1D98 /* SettingsViewModel.swift */; };
+		EE32BE9F2C1DFF7900FC1D98 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BE9E2C1DFF7900FC1D98 /* UserViewModel.swift */; };
+		EE32BEA12C1E0BD200FC1D98 /* MissionsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEA02C1E0BD200FC1D98 /* MissionsScreenView.swift */; };
+		EE32BEA52C1E0D2700FC1D98 /* MissionsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEA42C1E0D2700FC1D98 /* MissionsItem.swift */; };
+		EE32BEA72C1E0E0300FC1D98 /* MissionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEA62C1E0E0300FC1D98 /* MissionsViewModel.swift */; };
+		EE32BEAA2C1E1F7A00FC1D98 /* ShopScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEA92C1E1F7A00FC1D98 /* ShopScreenView.swift */; };
+		EE32BEAD2C1E1FC500FC1D98 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEAC2C1E1FC500FC1D98 /* ShopViewModel.swift */; };
+		EE32BEB02C1E200400FC1D98 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEAF2C1E200400FC1D98 /* StoreItem.swift */; };
+		EE32BEB32C1E22E700FC1D98 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEB22C1E22E700FC1D98 /* Common.swift */; };
+		EE32BEB72C1F10DC00FC1D98 /* GameDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEB62C1F10DC00FC1D98 /* GameDataItem.swift */; };
+		EE32BEBB2C1F11CD00FC1D98 /* GameScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEBA2C1F11CD00FC1D98 /* GameScreenView.swift */; };
+		EE32BEBD2C1F11E000FC1D98 /* GameScreenScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEBC2C1F11E000FC1D98 /* GameScreenScene.swift */; };
+		EE32BEC02C2030E000FC1D98 /* GameWinScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEBF2C2030DF00FC1D98 /* GameWinScreenView.swift */; };
+		EE32BEC22C20339500FC1D98 /* GameLoseScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEC12C20339500FC1D98 /* GameLoseScreenView.swift */; };
+		EE32BEC52C203B7700FC1D98 /* GameScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEC42C203B7700FC1D98 /* GameScreenViewModel.swift */; };
+		EE32BEC72C203CD400FC1D98 /* PauseGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32BEC62C203CD400FC1D98 /* PauseGame.swift */; };
+		EE32BECA2C2040BB00FC1D98 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE32BEC92C2040BB00FC1D98 /* music.mp3 */; };
+		EE32BECC2C2040BF00FC1D98 /* click_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE32BECB2C2040BF00FC1D98 /* click_sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE32BE782C1D79A300FC1D98 /* Avia Tiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avia Tiles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE32BE7B2C1D79A300FC1D98 /* Avia_TilesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avia_TilesApp.swift; sourceTree = "<group>"; };
+		EE32BE7D2C1D79A300FC1D98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE32BE7F2C1D79A500FC1D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE32BE822C1D79A500FC1D98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE32BE8D2C1D7A5D00FC1D98 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		EE32BE8F2C1D7B9200FC1D98 /* Souses.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Souses.otf; sourceTree = "<group>"; };
+		EE32BE912C1D7BA200FC1D98 /* Avia-Tiles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Avia-Tiles-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE32BE952C1DE71D00FC1D98 /* SettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenView.swift; sourceTree = "<group>"; };
+		EE32BE972C1DE72600FC1D98 /* RulesScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesScreenView.swift; sourceTree = "<group>"; };
+		EE32BE9A2C1DFE2E00FC1D98 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		EE32BE9E2C1DFF7900FC1D98 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		EE32BEA02C1E0BD200FC1D98 /* MissionsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsScreenView.swift; sourceTree = "<group>"; };
+		EE32BEA42C1E0D2700FC1D98 /* MissionsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsItem.swift; sourceTree = "<group>"; };
+		EE32BEA62C1E0E0300FC1D98 /* MissionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsViewModel.swift; sourceTree = "<group>"; };
+		EE32BEA92C1E1F7A00FC1D98 /* ShopScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopScreenView.swift; sourceTree = "<group>"; };
+		EE32BEAC2C1E1FC500FC1D98 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		EE32BEAF2C1E200400FC1D98 /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		EE32BEB22C1E22E700FC1D98 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		EE32BEB42C1E262500FC1D98 /* Avia Tiles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Avia Tiles.entitlements"; sourceTree = "<group>"; };
+		EE32BEB62C1F10DC00FC1D98 /* GameDataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataItem.swift; sourceTree = "<group>"; };
+		EE32BEBA2C1F11CD00FC1D98 /* GameScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenView.swift; sourceTree = "<group>"; };
+		EE32BEBC2C1F11E000FC1D98 /* GameScreenScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenScene.swift; sourceTree = "<group>"; };
+		EE32BEBF2C2030DF00FC1D98 /* GameWinScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWinScreenView.swift; sourceTree = "<group>"; };
+		EE32BEC12C20339500FC1D98 /* GameLoseScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoseScreenView.swift; sourceTree = "<group>"; };
+		EE32BEC42C203B7700FC1D98 /* GameScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenViewModel.swift; sourceTree = "<group>"; };
+		EE32BEC62C203CD400FC1D98 /* PauseGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseGame.swift; sourceTree = "<group>"; };
+		EE32BEC92C2040BB00FC1D98 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		EE32BECB2C2040BF00FC1D98 /* click_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click_sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE32BE752C1D79A300FC1D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE32BE6F2C1D79A300FC1D98 = {
+			isa = PBXGroup;
+			children = (
+				EE32BE7A2C1D79A300FC1D98 /* Avia Tiles */,
+				EE32BE792C1D79A300FC1D98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE32BE792C1D79A300FC1D98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BE782C1D79A300FC1D98 /* Avia Tiles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE32BE7A2C1D79A300FC1D98 /* Avia Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEC82C2040AA00FC1D98 /* Audio */,
+				EE32BEB42C1E262500FC1D98 /* Avia Tiles.entitlements */,
+				EE32BEB12C1E22D800FC1D98 /* Common */,
+				EE32BE912C1D7BA200FC1D98 /* Avia-Tiles-Info.plist */,
+				EE32BE7D2C1D79A300FC1D98 /* ContentView.swift */,
+				EE32BE8F2C1D7B9200FC1D98 /* Souses.otf */,
+				EE32BE8B2C1D7A4400FC1D98 /* Model */,
+				EE32BE8A2C1D7A3F00FC1D98 /* ViewModel */,
+				EE32BE892C1D7A2F00FC1D98 /* TilesGameViews */,
+				EE32BE7B2C1D79A300FC1D98 /* Avia_TilesApp.swift */,
+				EE32BE7F2C1D79A500FC1D98 /* Assets.xcassets */,
+				EE32BE812C1D79A500FC1D98 /* Preview Content */,
+			);
+			path = "Avia Tiles";
+			sourceTree = "<group>";
+		};
+		EE32BE812C1D79A500FC1D98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BE822C1D79A500FC1D98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE32BE892C1D7A2F00FC1D98 /* TilesGameViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEB82C1F11B900FC1D98 /* GameScreen */,
+				EE32BEA82C1E1F4400FC1D98 /* ShopScreen */,
+				EE32BE942C1DE70900FC1D98 /* RulesScreen */,
+				EE32BE932C1DE70300FC1D98 /* SettingsScreen */,
+				EE32BE922C1DE6F200FC1D98 /* MissionsScreen */,
+				EE32BE8C2C1D7A4D00FC1D98 /* HomeScreen */,
+			);
+			path = TilesGameViews;
+			sourceTree = "<group>";
+		};
+		EE32BE8A2C1D7A3F00FC1D98 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEC32C203B6A00FC1D98 /* Game */,
+				EE32BEAB2C1E1FBB00FC1D98 /* Shop */,
+				EE32BEA22C1E0D1500FC1D98 /* Missions */,
+				EE32BE9D2C1DFF7000FC1D98 /* User */,
+				EE32BE992C1DFE1300FC1D98 /* Settings */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE32BE8B2C1D7A4400FC1D98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEB52C1F10CF00FC1D98 /* GameData */,
+				EE32BEAE2C1E1FFB00FC1D98 /* Store */,
+				EE32BEA32C1E0D1B00FC1D98 /* Missions */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE32BE8C2C1D7A4D00FC1D98 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BE8D2C1D7A5D00FC1D98 /* HomeScreenView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		EE32BE922C1DE6F200FC1D98 /* MissionsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEA02C1E0BD200FC1D98 /* MissionsScreenView.swift */,
+			);
+			path = MissionsScreen;
+			sourceTree = "<group>";
+		};
+		EE32BE932C1DE70300FC1D98 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BE952C1DE71D00FC1D98 /* SettingsScreenView.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		EE32BE942C1DE70900FC1D98 /* RulesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BE972C1DE72600FC1D98 /* RulesScreenView.swift */,
+			);
+			path = RulesScreen;
+			sourceTree = "<group>";
+		};
+		EE32BE992C1DFE1300FC1D98 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BE9A2C1DFE2E00FC1D98 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE32BE9D2C1DFF7000FC1D98 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BE9E2C1DFF7900FC1D98 /* UserViewModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		EE32BEA22C1E0D1500FC1D98 /* Missions */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEA62C1E0E0300FC1D98 /* MissionsViewModel.swift */,
+			);
+			path = Missions;
+			sourceTree = "<group>";
+		};
+		EE32BEA32C1E0D1B00FC1D98 /* Missions */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEA42C1E0D2700FC1D98 /* MissionsItem.swift */,
+			);
+			path = Missions;
+			sourceTree = "<group>";
+		};
+		EE32BEA82C1E1F4400FC1D98 /* ShopScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEA92C1E1F7A00FC1D98 /* ShopScreenView.swift */,
+			);
+			path = ShopScreen;
+			sourceTree = "<group>";
+		};
+		EE32BEAB2C1E1FBB00FC1D98 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEAC2C1E1FC500FC1D98 /* ShopViewModel.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		EE32BEAE2C1E1FFB00FC1D98 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEAF2C1E200400FC1D98 /* StoreItem.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EE32BEB12C1E22D800FC1D98 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEB22C1E22E700FC1D98 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EE32BEB52C1F10CF00FC1D98 /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEB62C1F10DC00FC1D98 /* GameDataItem.swift */,
+			);
+			path = GameData;
+			sourceTree = "<group>";
+		};
+		EE32BEB82C1F11B900FC1D98 /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEBE2C2030CC00FC1D98 /* GameResults */,
+				EE32BEB92C1F11BF00FC1D98 /* GameScene */,
+				EE32BEBA2C1F11CD00FC1D98 /* GameScreenView.swift */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		EE32BEB92C1F11BF00FC1D98 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEBC2C1F11E000FC1D98 /* GameScreenScene.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		EE32BEBE2C2030CC00FC1D98 /* GameResults */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEBF2C2030DF00FC1D98 /* GameWinScreenView.swift */,
+				EE32BEC12C20339500FC1D98 /* GameLoseScreenView.swift */,
+				EE32BEC62C203CD400FC1D98 /* PauseGame.swift */,
+			);
+			path = GameResults;
+			sourceTree = "<group>";
+		};
+		EE32BEC32C203B6A00FC1D98 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BEC42C203B7700FC1D98 /* GameScreenViewModel.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE32BEC82C2040AA00FC1D98 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EE32BECB2C2040BF00FC1D98 /* click_sound.mp3 */,
+				EE32BEC92C2040BB00FC1D98 /* music.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE32BE772C1D79A300FC1D98 /* Avia Tiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE32BE862C1D79A500FC1D98 /* Build configuration list for PBXNativeTarget "Avia Tiles" */;
+			buildPhases = (
+				EE32BE742C1D79A300FC1D98 /* Sources */,
+				EE32BE752C1D79A300FC1D98 /* Frameworks */,
+				EE32BE762C1D79A300FC1D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avia Tiles";
+			productName = "Avia Tiles";
+			productReference = EE32BE782C1D79A300FC1D98 /* Avia Tiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE32BE702C1D79A300FC1D98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EE32BE772C1D79A300FC1D98 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EE32BE732C1D79A300FC1D98 /* Build configuration list for PBXProject "Avia Tiles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE32BE6F2C1D79A300FC1D98;
+			productRefGroup = EE32BE792C1D79A300FC1D98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE32BE772C1D79A300FC1D98 /* Avia Tiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE32BE762C1D79A300FC1D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE32BECA2C2040BB00FC1D98 /* music.mp3 in Resources */,
+				EE32BE902C1D7B9200FC1D98 /* Souses.otf in Resources */,
+				EE32BE832C1D79A500FC1D98 /* Preview Assets.xcassets in Resources */,
+				EE32BE802C1D79A500FC1D98 /* Assets.xcassets in Resources */,
+				EE32BECC2C2040BF00FC1D98 /* click_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE32BE742C1D79A300FC1D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE32BE8E2C1D7A5D00FC1D98 /* HomeScreenView.swift in Sources */,
+				EE32BEA72C1E0E0300FC1D98 /* MissionsViewModel.swift in Sources */,
+				EE32BE982C1DE72600FC1D98 /* RulesScreenView.swift in Sources */,
+				EE32BEBD2C1F11E000FC1D98 /* GameScreenScene.swift in Sources */,
+				EE32BE7E2C1D79A300FC1D98 /* ContentView.swift in Sources */,
+				EE32BEBB2C1F11CD00FC1D98 /* GameScreenView.swift in Sources */,
+				EE32BEC52C203B7700FC1D98 /* GameScreenViewModel.swift in Sources */,
+				EE32BEC72C203CD400FC1D98 /* PauseGame.swift in Sources */,
+				EE32BEAA2C1E1F7A00FC1D98 /* ShopScreenView.swift in Sources */,
+				EE32BEC02C2030E000FC1D98 /* GameWinScreenView.swift in Sources */,
+				EE32BEC22C20339500FC1D98 /* GameLoseScreenView.swift in Sources */,
+				EE32BEA12C1E0BD200FC1D98 /* MissionsScreenView.swift in Sources */,
+				EE32BEB32C1E22E700FC1D98 /* Common.swift in Sources */,
+				EE32BE7C2C1D79A300FC1D98 /* Avia_TilesApp.swift in Sources */,
+				EE32BEA52C1E0D2700FC1D98 /* MissionsItem.swift in Sources */,
+				EE32BEB02C1E200400FC1D98 /* StoreItem.swift in Sources */,
+				EE32BEAD2C1E1FC500FC1D98 /* ShopViewModel.swift in Sources */,
+				EE32BE962C1DE71D00FC1D98 /* SettingsScreenView.swift in Sources */,
+				EE32BE9F2C1DFF7900FC1D98 /* UserViewModel.swift in Sources */,
+				EE32BE9B2C1DFE2E00FC1D98 /* SettingsViewModel.swift in Sources */,
+				EE32BEB72C1F10DC00FC1D98 /* GameDataItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE32BE842C1D79A500FC1D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE32BE852C1D79A500FC1D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE32BE872C1D79A500FC1D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Avia Tiles/Avia Tiles.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avia Tiles/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Tiles-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Avia-Tiles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE32BE882C1D79A500FC1D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Avia Tiles/Avia Tiles.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avia Tiles/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Avia-Tiles-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Avia-Tiles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE32BE732C1D79A300FC1D98 /* Build configuration list for PBXProject "Avia Tiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE32BE842C1D79A500FC1D98 /* Debug */,
+				EE32BE852C1D79A500FC1D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE32BE862C1D79A500FC1D98 /* Build configuration list for PBXNativeTarget "Avia Tiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE32BE872C1D79A500FC1D98 /* Debug */,
+				EE32BE882C1D79A500FC1D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE32BE702C1D79A300FC1D98 /* Project object */;
+}
